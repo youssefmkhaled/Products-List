@@ -1,0 +1,15 @@
+.rendered-items{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0rem 6rem;
+    color: #fff;
+    gap: 10px
+    ;
+}
+.rendered-text{
+    font-size: 30px;
+    font-weight: 700;
+    padding: 4rem 6rem;
+}
+
+

@@ -1,0 +1,109 @@
+.show {
+    border: 0;
+    border-radius: 1rem;
+    flex-basis: 31%;
+    margin: 30px 10px;
+    position: relative;
+    font-size: 1.2rem;
+    font-weight: 800;
+    text-transform: capitalize;
+    background-color: #9d9a9a;
+    transition-duration: 0.2s;
+    max-height: 240px;
+    display: flex;
+    flex-direction: column;
+    color: #000;
+}
+.content{
+    padding: 1rem 2rem;
+    min-height: 200px;
+}
+.content p {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.content p span {
+    width: 70%;
+    text-align: left;
+    font-weight: 500;
+}
+
+
+.show .svg-close svg{
+    position: absolute;
+    right: 5px;
+    padding: 2px;
+    top:5px;
+    font-size: 25px;
+    background-color: #fff;
+    color: red;
+    cursor: pointer;
+    transition-duration: 1s;
+    border-radius: 1rem;
+}
+.show svg:hover {
+    background-color: red;
+    color: #fff;
+}
+.show .svg-edit svg{
+    position: absolute;
+    right: 40px;
+    padding: 2px;
+    top:5px;
+    font-size: 25px;
+    background-color: transparent;
+    cursor: pointer;
+    transition-duration: 1s;
+    border-radius: 1rem;
+    color: #242424;
+    background-color: #fff;
+}
+.show svg:hover {
+    background-color: #242424;
+    color: #fff;
+}
+
+.edit {
+    padding: 1rem;
+    border: 0;
+    border-radius: 1rem;
+    margin: 30px    0px;
+    font-size: 1.2rem;
+    font-weight: 600;
+    background-color: #9d9a9a;
+    transition-duration: 0.5s;
+    flex-basis: 30%;
+    color: #000;
+}
+.edit:hover{
+    transform: scale(1.1);
+}
+.edit div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1rem ;
+}
+.edit div label {
+    flex-basis: 30%;
+}
+.edit div input {
+    flex-basis: 60%;
+    padding: 10px;
+    font-size: 1rem;
+    outline: none;
+    border: 0;
+    margin-bottom: 5px;
+}
+.edit .dim{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.edit .btn {
+    margin-top:20px;
+}
+.edit .btn button{
+    flex-basis: 48%;
+}

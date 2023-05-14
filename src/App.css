@@ -1,0 +1,40 @@
+a{
+    color: unset;
+    text-decoration: none;
+}
+
+button {
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    font-size: 18px;
+    font-weight: 700;
+    border: 0;
+    outline: none;
+    cursor: pointer;
+    transition-duration: 1s;
+}
+.product {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 7rem;
+    background-color: #242424;
+}
+.add {
+    background-color: #4BB543;
+    color: #fff;
+    margin-right: 1rem;
+}
+.add:hover {
+    background-color: #fff;
+    color: #4BB543;
+}
+
+.del {
+    background-color: #fff;
+    color:#FF0000;
+}
+.del:hover{
+    background-color: #FF0000;
+    color: #fff;
+}

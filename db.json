@@ -1,0 +1,40 @@
+{
+  "items": [
+    {
+      "sku": "JVC200124",
+      "name": "Disk-1",
+      "price": "15",
+      "size": "1000",
+      "height": "",
+      "width": "",
+      "length": "",
+      "weight": "",
+      "type": "dvd",
+      "id": 1
+    },
+    {
+      "sku": "JVC200125",
+      "name": "Chair",
+      "price": "50",
+      "size": "",
+      "height": "12",
+      "width": "1211111",
+      "length": "12",
+      "weight": "",
+      "type": "furniture",
+      "id": 3
+    },
+    {
+      "sku": "JVC200126",
+      "name": "Harry Potter",
+      "price": "50",
+      "size": "",
+      "height": "",
+      "width": "",
+      "length": "",
+      "weight": "1",
+      "type": "book",
+      "id": 4
+    }
+  ]
+}
